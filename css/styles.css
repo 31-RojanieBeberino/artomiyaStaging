@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'General Sans';
+    src: url('/fonts/GeneralSans-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('/fonts/GeneralSans-Medium.otf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('/fonts/GeneralSans-Semibold.otf');
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('/fonts/GeneralSans-Bold.otf');
+    font-weight: 700;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li, span,
+select, input, label, button, textarea, ::placeholder{
+    font-family: 'General Sans'!important;
+    margin: 0px!important;
+}
+
+
+
+body{
+    background-image: url('/img/pagebg.webp');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.quizSection{
+    padding:100px 20px;
+    height: 100vh;
+}
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+  .progress-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .progress-circle.active {
+    background: #387A0D;
+    color: white;
+  }
+  .progress-circle.complete {
+    background: #387A0D;
+    color: white;
+  }
+  .question-box {
+    display: none;
+  }
+  .question-box.active {
+    display: block;
+  }
+
+
+  .btn{
+    background-color: #fff;
+    border: 1px solid #387A0D;
+  }
+  
+  .answers .btn {
+    border-radius: 25px;
+    margin-bottom: 15px!important;
+    width: 100%;
+    max-width: 300px;
+    color:#000;
+  }
+
+
+  .answers .btn:hover{
+    background-color: #387A0D;
+    border: 1px solid #387A0D;
+    color:#fff;
+  }
+
+  .quizSection .container{
+    width: 1000px;
+  }
+
+
+  #nextBtn{
+    padding:10px 35px;
+    background-color: #387A0D;
+    color:#fff;
+    border:0px;
+    border-radius: 50px;
+  }
+
+  .imageQuestion .btn{
+    width: 150px!important;
+    max-width: 150px!important;
+    height: 140px;
+    padding:10px!important;
+    border-radius: 10px!important;
+    margin: 0px 20px 20px!important;
+    background-position: center center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+  }
+
+  .imageQuestion .btn.mona{
+    background-image: url('../img/mona.webp');
+  }
+  .imageQuestion .btn.Adam{
+    background-image: url('../img/img1.webp');
+  }
+  .imageQuestion .btn.Athens{
+    background-image: url('../img/img2.webp');
+  }
+  .imageQuestion .btn.Guernica{
+    background-image: url('../img/img3.webp');
+  }
+
+  .imageQuestion .btn{
+    color: transparent!important;
+  }
+
+  .imageQuestion .btn img{
+    border-radius: 10px!important;
+    margin-bottom: -25px;
+  }
+
+  .imageQuestion{
+    width: 500px;
+    justify-content: center;
+  }
+
